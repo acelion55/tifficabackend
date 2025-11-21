@@ -1,0 +1,14 @@
+{
+  "name": "tiffin-backend",
+  "version": "1.0.0",
+  "main": "backend.cjs",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node backend.cjs"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "cors": "^2.8.5"
+  }
+}
