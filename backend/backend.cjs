@@ -8,7 +8,7 @@ app.use(express.json());
 
 // MongoDB Connection
 mongoose
-  .connect("mongodb://127.0.0.1:27017/tiffinDB")
+  .connect("mongodb+srv://tiffica:deepak%40tiffica@cluster0.80cwflc.mongodb.net/?appName=Cluster0")
   .then(() => console.log("MongoDB Connected"))
   .catch(err => console.log(err));
 
@@ -39,3 +39,4 @@ app.post("/api/contact", async (req, res) => {
 app.listen(5000, () => {
   console.log("Server running on http://localhost:5000");
 });
+
